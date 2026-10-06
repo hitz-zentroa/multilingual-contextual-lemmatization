@@ -19,7 +19,7 @@ The repository is structured around three publications that form the basis of th
 
 **Olia Toporkov and Rodrigo Agerri.** *Computational Linguistics*, 50(1), 2024, pp. 157-191.
 
-[Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf)
+[Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf) · [Code]() · [Data]()
 
 This work investigates the role of morphological information in contextual lemmatization across six languages with different levels of morphological complexity. It evaluates whether explicit morphological features are necessary when using modern contextual representations, considering both in-domain and out-of-domain settings.
 
@@ -27,19 +27,37 @@ This work investigates the role of morphological information in contextual lemma
 
 **Olia Toporkov and Rodrigo Agerri.** *LREC-COLING 2024*.
 
-[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf)
+[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data]()
 
 This paper studies how different Shortest Edit Script (SES) representations affect contextual lemmatization. The experiments cover seven languages and compare multilingual and language-specific pretrained encoder models in both in-domain and out-of-domain settings.
 
 ### Lemma Dilemma: On Lemma Generation Without Domain- or Language-Specific Training Data
 
-[Paper](https://aclanthology.org/2025.findings-emnlp.988/) · [PDF](https://aclanthology.org/2025.findings-emnlp.988.pdf)
+[Paper](https://aclanthology.org/2025.findings-emnlp.988/) · [PDF](https://aclanthology.org/2025.findings-emnlp.988.pdf) · [Code]() · [Data]()
 
 This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models (LLMs) across 12 languages.
 
 ## Languages
 
 Experiments across these papers include languages with different morphological profiles, including **Basque, Czech, English, Polish, Russian, Spanish, and Turkish**.
+
+## Code and Data
+
+Code and experimental resources are organized by publication.
+
+```text
+multilingual-contextual-lemmatization/
+├── paper-1-morphology/
+│   ├── code/
+│   └── results/
+├── paper-2-edit-scripts/
+│   ├── code/
+│   └── results/
+├── paper-3-crosslingual-llm/
+│   ├── code/
+│   └── results/
+└── data/
+```
 
 ## Citation
 
