@@ -44,24 +44,6 @@ A central goal is to build lemmatizers that transfer well across languages and d
 
 Recent work extends the line of research toward lemma generation without relying on domain- or language-specific training data.
 
-## Repository structure
-
-```text
-.
-├── src/                  # Training and inference code
-├── data/                 # Data preparation / pointers to datasets
-├── scripts/              # Reproducibility and evaluation scripts
-├── configs/              # Experiment configurations
-├── results/              # Tables or exported results
-├── _layouts/             # GitHub Pages layout
-├── assets/               # Website styles and images
-├── _config.yml           # GitHub Pages configuration
-├── index.md              # Project website
-└── README.md              # Repository documentation
-```
-
-> Adjust the folders above to match the actual codebase. The website itself only requires `_config.yml`, `index.md`, `_layouts/`, and `assets/`.
-
 ## Publications {#publications}
 
 ### On the Role of Morphological Information for Contextual Lemmatization
@@ -93,7 +75,3 @@ If you use this repository, please cite the paper(s) relevant to the experiments
 ## Authors and affiliation
 
 Developed at **HiTZ — Basque Center for Language Technology**, University of the Basque Country (UPV/EHU).
-
-## License
-
-Add the license that applies to the code, models, and/or data in this repository. If different components use different licenses, document them separately.
