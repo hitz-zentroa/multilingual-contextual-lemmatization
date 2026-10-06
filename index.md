@@ -37,9 +37,35 @@ This paper studies how different Shortest Edit Script (SES) representations affe
 
 This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models (LLMs) across 12 languages.
 
-## Languages
+## Language Coverage
 
-Experiments across these papers include languages with different morphological profiles, including **Basque, Czech, English, Polish, Russian, Spanish, and Turkish**.
+The three studies cover typologically diverse languages with different morphological profiles. The table below summarizes the language coverage across the three publications.
+
+<div class="language-table">
+
+| Language | Morphological Information | Edit Scripts | Lemma Dilemma |
+|---|:---:|:---:|:---:|
+| **Basque** | ✓ | ✓ | ✓ |
+| **Czech** | ✓ | ✓ | ✓ |
+| **English** | ✓ | ✓ | ✓ |
+| **Polish** | — | ✓ | ✓ |
+| **Russian** | ✓ | ✓ | ✓ |
+| **Spanish** | ✓ | ✓ | ✓ |
+| **Turkish** | ✓ | ✓ | ✓ |
+| French | — | — | ✓ |
+| German | — | — | ✓ |
+| Italian | — | — | ✓ |
+| Finnish | — | — | ✓ |
+| Icelandic | — | — | ✓ |
+| Swedish | — | — | ✓ |
+
+</div>
+
+<small>
+<strong>Morphological Information</strong>: <em>On the Role of Morphological Information for Contextual Lemmatization</em> (2024) ·
+<strong>Edit Scripts</strong>: <em>Evaluating Shortest Edit Script Methods for Contextual Lemmatization</em> (2024) ·
+<strong>Lemma Dilemma</strong>: <em>Lemma Dilemma: On Lemma Generation Without Domain- or Language-Specific Training Data</em> (2025)
+</small>
 
 ## Code and Data
 
