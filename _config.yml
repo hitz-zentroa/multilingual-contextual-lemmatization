@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: Multilingual Contextual Lemmatization
+description: Models, data, and experiments for multilingual contextual lemmatization across languages and domains.
+url: "https://hitz-zentroa.github.io"
+baseurl: "/multilingual-contextual-lemmatization"
+github:
+  repository_url: "https://github.com/hitz-zentroa/multilingual-contextual-lemmatization"
+markdown: kramdown
