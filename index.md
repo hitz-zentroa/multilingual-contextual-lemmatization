@@ -3,56 +3,25 @@ layout: default
 ---
 
 # Multilingual Contextual Lemmatization
-
-
-The work studies how contextual representations, morphological information, edit-script design, and multilingual transfer affect lemmatization across languages and domains.
-
 <div class="button-row">
   <a class="btn btn-primary" href="https://github.com/hitz-zentroa/multilingual-contextual-lemmatization">View on GitHub</a>
   <a class="btn" href="#publications">Publications</a>
 </div>
 
 ## Overview
+This repository brings together research on multilingual contextual lemmatization across languages with varying levels of morphological complexity. In particular, we study how contextual representations, morphological information, edit-script design, and multilingual transfer affect lemmatization performance across languages and domains.
 
-Lemmatization maps an inflected word form to its canonical form or **lemma**. Contextual lemmatization uses the surrounding sentence to resolve ambiguity and improve predictions, especially in morphologically rich languages.
-
-This repository covers three complementary directions:
-
-1. **Morphological information** — investigating whether explicit morphosyntactic features are necessary when contextual encoders already capture morphology.
-2. **Shortest Edit Scripts (SES)** — evaluating how different edit-script representations affect contextual lemmatization.
-3. **Domain- and language-independent lemma generation** — exploring methods that reduce reliance on language- or domain-specific training data, including LLM-based approaches.
-
-## Languages
-
-Experiments across the papers include languages with different morphological profiles, including **Basque, Czech, English, Polish, Russian, Spanish, and Turkish**.
-
-## Research themes
-
-### Contextual representations and morphology
-
-We study how much explicit morphological information contributes to contextual lemmatization and how robust different configurations are when evaluated outside the training domain.
-
-### Shortest Edit Scripts
-
-We compare SES representations used to transform a word form into its lemma, including strategies that separate casing from character-level edit operations.
-
-### Multilingual and cross-domain generalization
-
-A central goal is to build lemmatizers that transfer well across languages and domains rather than optimizing only for in-domain benchmarks.
-
-### LLM-based lemma generation
-
-Recent work extends the line of research toward lemma generation without relying on domain- or language-specific training data.
+The repository is structured around three publications that form the basis of this line of research.
 
 ## Publications {#publications}
 
 ### On the Role of Morphological Information for Contextual Lemmatization
 
-**Olia Toporkov and Rodrigo Agerri.** *Computational Linguistics*, 50(1), 2024.
+**Olia Toporkov and Rodrigo Agerri.** *Computational Linguistics*, 50(1), 2024, pp. 157-191.
 
 [Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf)
 
-This work investigates the contribution of explicit morphological features to contextual lemmatization across languages with different degrees of morphological complexity, including out-of-domain evaluation.
+This work investigates the role of morphological information in contextual lemmatization across six languages with different levels of morphological complexity. It evaluates whether explicit morphological features are necessary when using modern contextual representations, considering both in-domain and out-of-domain settings.
 
 ### Evaluating Shortest Edit Script Methods for Contextual Lemmatization
 
@@ -60,13 +29,17 @@ This work investigates the contribution of explicit morphological features to co
 
 [Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf)
 
-This paper compares Shortest Edit Script representations in a controlled contextual lemmatization setup and evaluates multilingual and language-specific encoder models in both in-domain and out-of-domain settings.
+This paper studies how different Shortest Edit Script (SES) representations affect contextual lemmatization. The experiments cover seven languages and compare multilingual and language-specific pretrained encoder models in both in-domain and out-of-domain settings.
 
 ### Lemma Dilemma: On Lemma Generation Without Domain- or Language-Specific Training Data
 
 [Paper](https://aclanthology.org/2025.findings-emnlp.988/) · [PDF](https://aclanthology.org/2025.findings-emnlp.988.pdf)
 
-This work explores lemma generation when domain- or language-specific training data are unavailable, extending contextual lemmatization toward more flexible multilingual settings.
+This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models (LLMs) across 12 languages.
+
+## Languages
+
+Experiments across these papers include languages with different morphological profiles, including **Basque, Czech, English, Polish, Russian, Spanish, and Turkish**.
 
 ## Citation
 
