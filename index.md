@@ -27,7 +27,7 @@ This work investigates the role of morphological information in contextual lemma
 
 **Olia Toporkov and Rodrigo Agerri.** *LREC-COLING 2024*.
 
-[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data]()
+[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data]() · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
 
 This paper studies how different Shortest Edit Script (SES) representations affect contextual lemmatization. The experiments cover seven languages and compare multilingual and language-specific pretrained encoder models in both in-domain and out-of-domain settings.
 
@@ -41,15 +41,15 @@ This work explores contextual lemmatization when domain- or language-specific tr
 
 The three studies cover typologically diverse languages with different morphological profiles. The table below summarizes the language coverage across the three publications.
 
-| Language | Morphological Information | Edit Scripts | Lemma Dilemma |
+| Language | Morphological Information | SES | Lemma Dilemma |
 |---|:---:|:---:|:---:|
-| **Basque** | ✓ | ✓ | ✓ |
-| **Czech** | ✓ | ✓ | ✓ |
-| **English** | ✓ | ✓ | ✓ |
-| **Russian** | ✓ | ✓ | ✓ |
-| **Spanish** | ✓ | ✓ | ✓ |
-| **Turkish** | ✓ | ✓ | ✓ |
-| **Polish** | — | ✓ | ✓ |
+| Basque | ✓ | ✓ | ✓ |
+| Czech | ✓ | ✓ | ✓ |
+| English | ✓ | ✓ | ✓ |
+| Russian | ✓ | ✓ | ✓ |
+| Spanish | ✓ | ✓ | ✓ |
+| Turkish | ✓ | ✓ | ✓ |
+| Polish | — | ✓ | ✓ |
 | French | — | — | ✓ |
 | German | — | — | ✓ |
 | Italian | — | — | ✓ |
