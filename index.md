@@ -41,21 +41,109 @@ This work explores contextual lemmatization when domain- or language-specific tr
 
 The three studies cover typologically diverse languages with different morphological profiles. The table below summarizes the language coverage across the three publications.
 
-| Language | Morphological Information | SES | Lemma Dilemma |
-|---|:---:|:---:|:---:|
-| Basque | ✓ | ✓ | ✓ |
-| Czech | ✓ | ✓ | ✓ |
-| English | ✓ | ✓ | ✓ |
-| Russian | ✓ | ✓ | ✓ |
-| Spanish | ✓ | ✓ | ✓ |
-| Turkish | ✓ | ✓ | ✓ |
-| Polish | — | ✓ | ✓ |
-| French | — | — | ✓ |
-| German | — | — | ✓ |
-| Italian | — | — | ✓ |
-| Finnish | — | — | ✓ |
-| Icelandic | — | — | ✓ |
-| Swedish | — | — | ✓ |
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Morphological Information</th>
+      <th>SES</th>
+      <th>Lemma Dilemma</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Basque</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Czech</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>English</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Russian</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Spanish</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Turkish</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Polish</td>
+      <td>—</td>
+      <td>✓</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>French</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>German</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Italian</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Finnish</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Icelandic</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+
+    <tr>
+      <td>Swedish</td>
+      <td>—</td>
+      <td>—</td>
+      <td>✓</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Code and Data
 
