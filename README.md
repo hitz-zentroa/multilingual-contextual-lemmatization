@@ -62,7 +62,7 @@ This work studies how different Shortest Edit Script (SES) representations affec
 **Olia Toporkov, Alan Akbik, and Rodrigo Agerri**  
 *Findings of the Association for Computational Linguistics: EMNLP 2025*, 2025, pp. 18219–18232.
 
-This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models across twelve languages.
+This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models (LLMs) across 12 languages.
 
 ```bibtex
 @inproceedings{toporkov-etal-2025-lemma,
