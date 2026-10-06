@@ -46,10 +46,10 @@ The three studies cover typologically diverse languages with different morpholog
 | **Basque** | ✓ | ✓ | ✓ |
 | **Czech** | ✓ | ✓ | ✓ |
 | **English** | ✓ | ✓ | ✓ |
-| **Polish** | — | ✓ | ✓ |
 | **Russian** | ✓ | ✓ | ✓ |
 | **Spanish** | ✓ | ✓ | ✓ |
 | **Turkish** | ✓ | ✓ | ✓ |
+| **Polish** | — | ✓ | ✓ |
 | French | — | — | ✓ |
 | German | — | — | ✓ |
 | Italian | — | — | ✓ |
