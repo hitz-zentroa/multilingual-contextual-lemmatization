@@ -41,8 +41,6 @@ This work explores contextual lemmatization when domain- or language-specific tr
 
 The three studies cover typologically diverse languages with different morphological profiles. The table below summarizes the language coverage across the three publications.
 
-<div class="language-table">
-
 | Language | Morphological Information | Edit Scripts | Lemma Dilemma |
 |---|:---:|:---:|:---:|
 | **Basque** | ✓ | ✓ | ✓ |
@@ -58,14 +56,6 @@ The three studies cover typologically diverse languages with different morpholog
 | Finnish | — | — | ✓ |
 | Icelandic | — | — | ✓ |
 | Swedish | — | — | ✓ |
-
-</div>
-
-<small>
-<strong>Morphological Information</strong>: <em>On the Role of Morphological Information for Contextual Lemmatization</em> (2024) ·
-<strong>Edit Scripts</strong>: <em>Evaluating Shortest Edit Script Methods for Contextual Lemmatization</em> (2024) ·
-<strong>Lemma Dilemma</strong>: <em>Lemma Dilemma: On Lemma Generation Without Domain- or Language-Specific Training Data</em> (2025)
-</small>
 
 ## Code and Data
 
