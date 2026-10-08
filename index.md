@@ -8,6 +8,23 @@ layout: default
   <a class="btn" href="#publications">Publications</a>
 </div>
 
+
+
+
+<div class="publication-links">
+  <a href="PAPER_URL" class="pub-link paper">Paper</a>
+  <a href="DATA_URL" class="pub-link data">Data</a>
+  <a href="CODE_URL" class="pub-link code">Code</a>
+</div>
+
+
+<div class="publication-links">
+  <a href="PAPER_2_URL" class="pub-link paper">Paper</a>
+  <a href="DATA_2_URL" class="pub-link data">Data</a>
+  <a href="CODE_2_URL" class="pub-link code">Code</a>
+</div>
+
+
 ## Overview
 This repository brings together research on multilingual contextual lemmatization across languages with varying levels of morphological complexity. In particular, we study how contextual representations, morphological information, edit-script design, and multilingual transfer affect lemmatization performance across languages and domains.
 
@@ -19,7 +36,13 @@ The repository is structured around three publications that form the basis of th
 
 **Olia Toporkov and Rodrigo Agerri.** *Computational Linguistics*, 50(1), 2024, pp. 157-191.
 
-[Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf) · [Code]() · [Data](https://github.com/oltoporkov/morphological-information-datasets) · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
+<div class="publication-links">
+  <a href="https://aclanthology.org/2024.cl-1.6/" class="pub-link paper">Paper</a>
+  <a href="https://aclanthology.org/2024.cl-1.6.pdf" class="pub-link paper">PDF</a>
+  <a href="CODE_URL" class="pub-link code">Code</a>
+  <a href="https://github.com/oltoporkov/morphological-information-datasets" class="pub-link data">Data</a>
+  <a href="https://huggingface.co/collections/HiTZ/lemmatization" class="pub-link models">Models</a>
+</div>
 
 This work investigates the role of morphological information in contextual lemmatization across six languages with different levels of morphological complexity. It evaluates whether explicit morphological features are necessary when using modern contextual representations, considering both in-domain and out-of-domain settings.
 
