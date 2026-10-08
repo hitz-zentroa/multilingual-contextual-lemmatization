@@ -8,23 +8,6 @@ layout: default
   <a class="btn" href="#publications">Publications</a>
 </div>
 
-
-
-
-<div class="publication-links">
-  <a href="PAPER_URL" class="pub-link paper">Paper</a>
-  <a href="DATA_URL" class="pub-link data">Data</a>
-  <a href="CODE_URL" class="pub-link code">Code</a>
-</div>
-
-
-<div class="publication-links">
-  <a href="PAPER_2_URL" class="pub-link paper">Paper</a>
-  <a href="DATA_2_URL" class="pub-link data">Data</a>
-  <a href="CODE_2_URL" class="pub-link code">Code</a>
-</div>
-
-
 ## Overview
 This repository brings together research on multilingual contextual lemmatization across languages with varying levels of morphological complexity. In particular, we study how contextual representations, morphological information, edit-script design, and multilingual transfer affect lemmatization performance across languages and domains.
 
@@ -50,13 +33,25 @@ This work investigates the role of morphological information in contextual lemma
 
 **Olia Toporkov and Rodrigo Agerri.** *LREC-COLING 2024*.
 
-[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data](https://huggingface.co/datasets/oliat/lemmatization) · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
+<div class="publication-links">
+  <a href="https://aclanthology.org/2024.lrec-main.572/" class="pub-link paper">Paper</a>
+  <a href="https://aclanthology.org/2024.lrec-main.572.pdf" class="pub-link paper">PDF</a>
+  <a href="CODE_URL" class="pub-link code">Code</a>
+  <a href="https://huggingface.co/datasets/oliat/lemmatization" class="pub-link data">Data</a>
+  <a href="https://huggingface.co/collections/HiTZ/lemmatization" class="pub-link models">Models</a>
+</div>
 
 This paper studies how different Shortest Edit Script (SES) representations affect contextual lemmatization. The experiments cover seven languages and compare multilingual and language-specific pretrained encoder models in both in-domain and out-of-domain settings.
 
 ### Lemma Dilemma: On Lemma Generation Without Domain- or Language-Specific Training Data
 
-[Paper](https://aclanthology.org/2025.findings-emnlp.988/) · [PDF](https://aclanthology.org/2025.findings-emnlp.988.pdf) · [Code]() · [Data]()
+<div class="publication-links">
+  <a href="https://aclanthology.org/2025.findings-emnlp.988/" class="pub-link paper">Paper</a>
+  <a href="https://aclanthology.org/2024.lrec-main.572.pdf" class="pub-link paper">PDF</a>
+  <a href="CODE_URL" class="pub-link code">Code</a>
+</div>
+
+[Paper]() · [PDF](https://aclanthology.org/2025.findings-emnlp.988.pdf) · [Code]() · [Data]()
 
 This work explores contextual lemmatization when domain- or language-specific training data is unavailable. It compares supervised encoder-based approaches and cross-lingual transfer with direct in-context lemma generation using large language models (LLMs) across 12 languages.
 
