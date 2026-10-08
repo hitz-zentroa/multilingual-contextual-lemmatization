@@ -179,3 +179,35 @@ td:first-child {
 tr:hover td {
   background: #fafcfc;
 }
+
+.publication-links {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 0.6rem;
+}
+
+.pub-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.pub-link.paper {
+  color: #2563eb;
+}
+
+.pub-link.data {
+  color: #d97706;
+}
+
+.pub-link.code {
+  color: #059669;
+}
+
+.pub-link.models {
+  color: #7c3aed;
+}
+
+.pub-link:hover {
+  text-decoration: underline;
+}
