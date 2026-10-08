@@ -47,7 +47,7 @@ This paper studies how different Shortest Edit Script (SES) representations affe
 
 <div class="publication-links">
   <a href="https://aclanthology.org/2025.findings-emnlp.988/" class="pub-link paper">Paper</a>
-  <a href="https://aclanthology.org/2024.lrec-main.572.pdf" class="pub-link paper">PDF</a>
+  <a href="https://aclanthology.org/2025.findings-emnlp.988.pdf" class="pub-link paper">PDF</a>
   <a href="CODE_URL" class="pub-link code">Code</a>
 </div>
 
