@@ -19,7 +19,7 @@ The repository is structured around three publications that form the basis of th
 
 **Olia Toporkov and Rodrigo Agerri.** *Computational Linguistics*, 50(1), 2024, pp. 157-191.
 
-[Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf) · [Code]() · [Data]() · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
+[Paper](https://aclanthology.org/2024.cl-1.6/) · [PDF](https://aclanthology.org/2024.cl-1.6.pdf) · [Code]() · [Data](https://github.com/oltoporkov/morphological-information-datasets) · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
 
 This work investigates the role of morphological information in contextual lemmatization across six languages with different levels of morphological complexity. It evaluates whether explicit morphological features are necessary when using modern contextual representations, considering both in-domain and out-of-domain settings.
 
@@ -27,7 +27,7 @@ This work investigates the role of morphological information in contextual lemma
 
 **Olia Toporkov and Rodrigo Agerri.** *LREC-COLING 2024*.
 
-[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data]() · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
+[Paper](https://aclanthology.org/2024.lrec-main.572/) · [PDF](https://aclanthology.org/2024.lrec-main.572.pdf) · [Code]() · [Data](https://huggingface.co/datasets/oliat/lemmatization) · [Models](https://huggingface.co/collections/HiTZ/lemmatization)
 
 This paper studies how different Shortest Edit Script (SES) representations affect contextual lemmatization. The experiments cover seven languages and compare multilingual and language-specific pretrained encoder models in both in-domain and out-of-domain settings.
 
